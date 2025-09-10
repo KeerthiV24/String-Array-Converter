@@ -126,7 +126,7 @@ button {
 }
 
 /* Bright Gradient Buttons */
-#convertBtn { background: linear-gradient(45deg, #ff6a00, #ffb347); }
+#convertBtn { background: linear-gradient(45deg, #6eda0a, #ffb347); }
 #exportBtn  { background: linear-gradient(45deg, #36d1dc, #5b86e5); }
 #clearBtn   { background: linear-gradient(45deg, #ff758c, #ff7eb3); }
 
