@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>String → Array Converter</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>String → Array Converter</h1>
+
+    <!-- Input -->
+    <textarea id="inputText" placeholder="Enter your text..."></textarea>
+
+    <!-- Buttons -->
+    <div class="buttons">
+  <button id="convertBtn">Result</button>
+  <button id="exportBtn">Export</button>
+  <button id="clearBtn">Clear</button>
+</div>
+
+    <!-- Character Boxes -->
+    <div class="results">
+      <h3>Characters</h3>
+      <div id="charBoxes" class="char-boxes"></div>
+    </div>
+
+    <!-- JSON Array -->
+    <div class="results">
+      <h3>JSON Output</h3>
+      <pre id="outputArea"></pre>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
